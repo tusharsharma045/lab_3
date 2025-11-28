@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionista Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <nav>
+        <div class="logo">Fashionista</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+        </div>
+        <div class="nav-icons">
+            <a href="#">Login</a>
+            <a href="#">Cart</a>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="hero-content">
+            <h1>Seasonal Sale!</h1>
+            <p>Up to 50% off on latest trends</p>
+            <button>Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Flash Sale Strip -->
+    <div class="flash-sale">
+        <span>🔥 Flash Sale! Ends in 02:15:45</span>
+    </div>
+
+    <!-- Main Layout Grid -->
+    <div class="main-layout">
+        <!-- Filters Sidebar -->
+        <aside class="filters">
+            <h3>Filters</h3>
+            <label><input type="checkbox"> Men</label>
+            <label><input type="checkbox"> Women</label>
+            <label><input type="checkbox"> Accessories</label>
+            <label><input type="checkbox"> Shoes</label>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Featured Categories -->
+            <section class="categories">
+                <div class="category-card">
+                    <img src="./assets/man.jpg" alt="Men">
+                    <h4>Men</h4>
+                </div>
+                <div class="category-card">
+                    <img src="https://source.unsplash.com/300x300/?women-fashion" alt="Women">
+                    <h4>Women</h4>
+                </div>
+                <div class="category-card">
+                    <img src="https://source.unsplash.com/300x300/?accessories" alt="Accessories">
+                    <h4>Accessories</h4>
+                </div>
+            </section>
+
+            <!-- Product Grid -->
+            <section class="product-grid">
+                <div class="product-card">
+                    <img src="https://source.unsplash.com/200x250/?fashion" alt="Product">
+                    <h5>Stylish Jacket</h5>
+                    <p>$49.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://source.unsplash.com/200x250/?shoes" alt="Product">
+                    <h5>Running Shoes</h5>
+                    <p>$79.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://source.unsplash.com/200x250/?bag" alt="Product">
+                    <h5>Leather Bag</h5>
+                    <p>$120.00</p>
+                    <button>Add to Cart</button>
+                </div>
+            </section>
+
+            <!-- Best Seller Section -->
+            <section class="best-sellers">
+                <h3>Best Sellers</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://source.unsplash.com/200x250/?jacket" alt="Product">
+                        <h5>Classic Jacket</h5>
+                        <p>$59.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://source.unsplash.com/200x250/?sneakers" alt="Product">
+                        <h5>Casual Sneakers</h5>
+                        <p>$89.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials">
+                <h3>What Our Customers Say</h3>
+                <div class="testimonial-card">
+                    <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Customer">
+                    <p>"Amazing collection and quick delivery!"</p>
+                    <span>- Sarah</span>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Customer">
+                    <p>"High-quality products, highly recommend."</p>
+                    <span>- John</span>
+                </div>
+            </section>
+
+            <!-- Newsletter Signup -->
+            <section class="newsletter">
+                <h3>Subscribe for Updates</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-columns">
+            <div>
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Follow Us</h4>
+                <ul class="social-links">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2025 Fashionista. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
